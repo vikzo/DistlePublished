@@ -9,6 +9,11 @@
     <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet" />
     <link href="css/app.css" rel="stylesheet" />
     <link href="Distle.styles.css" rel="stylesheet" />
+    <style>
+        *, *:focus, *:hover {
+            outline: none;
+        }
+    </style>
 </head>
 
 <body>
@@ -20,6 +25,16 @@
         <a class="dismiss">🗙</a>
     </div>
     <script src="_framework/blazor.webassembly.js"></script>
+    <script>
+        window.clipboardCopy = {
+            copyText: function (text) {
+                navigator.clipboard.writeText(text).then(function () {
+                })
+                .catch(function (error) {
+                });
+            }
+        };
+    </script>
 </body>
 
 </html>
