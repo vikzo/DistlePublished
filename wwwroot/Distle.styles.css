@@ -1,0 +1,137 @@
+/* /Components/Alphabet.razor.rz.scp.css */
+.letters[b-7d83dd68fw] {
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.letter[b-7d83dd68fw] {
+    padding: 0px 1px;
+}
+
+/* /Components/GameBoard.razor.rz.scp.css */
+.box-container[b-4g6vt093vy] {
+    display: flex;
+    justify-content: center;
+}
+
+.box-rows[b-4g6vt093vy] {
+    display: grid;
+    grid-template-rows: repeat(6, 60px);
+    grid-gap: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.box-row[b-4g6vt093vy] {
+    display: grid;
+    grid-template-columns: repeat(5, 60px);
+    grid-gap: 5px;
+}
+/* /Components/HeatMap.razor.rz.scp.css */
+.heatmap[b-o5c3u4d5vg] {
+    display: flex;
+}
+
+.heatmap-color[b-o5c3u4d5vg] {
+    flex: 1;
+    display: inline-block;
+    height: 10px;
+}
+/* /Components/KeyBoard.razor.rz.scp.css */
+.keyboard[b-5li0x34j3q] {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    padding: 10px 0;
+}
+.key-row[b-5li0x34j3q] {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+.key[b-5li0x34j3q] {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3px;
+    font-family: Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: var(--button-background-color);
+    color: var(--button-color);
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+.fat-key[b-5li0x34j3q] {
+    flex: 1.5;
+}
+.spacer[b-5li0x34j3q] {
+    flex: 0.5;
+}
+.key:active[b-5li0x34j3q] {
+    background-color: var(--button-active-background-color);
+}
+/* /Components/Tile.razor.rz.scp.css */
+
+.box[b-nf41b54mx7] {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--tile-background-color);
+    border: 2px solid var(--tile-border-color);
+    color: var(--tile-color);
+}
+
+.letter[b-nf41b54mx7] {
+    font-size: 30px;
+    font-weight: bold;
+    user-select: none;
+}
+
+.unset[b-nf41b54mx7] {
+}
+
+.evaluated[b-nf41b54mx7] {
+    color: var(--tile-evaluated-color);
+}
+
+.correct[b-nf41b54mx7] {
+    border-color: var(--tile-correct-border-color);
+    color: var(--tile-evaluated-color);
+}
+/* /Pages/Index.razor.rz.scp.css */
+
+.game[b-yq8l30i2wm] {
+    max-width: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.asdf[b-yq8l30i2wm] {
+    display: grid;
+    grid-gap: 5px;
+}
+/* /Shared/MainLayout.razor.rz.scp.css */
+.page[b-nzwjbrioau] {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+}
+
+*[b-nzwjbrioau] {
+    color: var(--color);
+    background-color: var(--background-color);
+}
