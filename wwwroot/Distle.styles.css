@@ -9,6 +9,7 @@
 .letter[b-7d83dd68fw] {
     padding: 0px 1px;
 }
+
 /* /Components/GameBoard.razor.rz.scp.css */
 .box-container[b-4g6vt093vy] {
     display: flex;
@@ -141,3 +142,8 @@
     justify-content: center;
 }
 
+.btn-light[b-nzwjbrioau] {
+    background-color: #eee;
+    color: black;
+    border-color: #eee;
+}
