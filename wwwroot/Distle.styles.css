@@ -29,6 +29,29 @@
     grid-template-columns: repeat(5, 60px);
     grid-gap: 5px;
 }
+
+.invalid-word[b-4g6vt093vy] {
+    animation-name: Shake-b-4g6vt093vy;
+    animation-duration: 600ms;
+}
+
+@keyframes Shake-b-4g6vt093vy {
+    10%, 90% {
+        transform: translateX(-1px);
+    }
+
+    20%, 80% {
+        transform: translateX(2px);
+    }
+
+    30%, 50%, 70% {
+        transform: translateX(-4px);
+    }
+
+    40%, 60% {
+        transform: translateX(4px);
+    }
+}
 /* /Components/HeatMap.razor.rz.scp.css */
 .heatmap[b-o5c3u4d5vg] {
     display: flex;
@@ -59,7 +82,7 @@
     margin: 3px;
     font-family: Helvetica, sans-serif;
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 400;
     background-color: var(--button-background-color);
     color: var(--button-color);
     border: none;
@@ -68,6 +91,7 @@
 }
 .fat-key[b-5li0x34j3q] {
     flex: 1.5;
+    font-weight: normal;
 }
 .spacer[b-5li0x34j3q] {
     flex: 0.5;
