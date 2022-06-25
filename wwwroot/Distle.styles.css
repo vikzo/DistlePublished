@@ -52,6 +52,25 @@
         transform: translateX(4px);
     }
 }
+
+.answer[b-4g6vt093vy] {
+    position: absolute;
+    top: 100px;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    .answer > div[b-4g6vt093vy] {
+        padding: 20px;
+        background-color: var(--background-color);
+        color: var(--color);
+        font-size: 24px;
+        border: none;
+        border-radius: 5px;
+        box-shadow: 0 .5rem 1rem #000;
+    }
 /* /Components/HeatMap.razor.rz.scp.css */
 .heatmap[b-o5c3u4d5vg] {
     display: flex;
@@ -129,7 +148,36 @@
     border-color: var(--tile-correct-border-color);
     color: var(--tile-evaluated-color);
 }
+
+.bounce[b-nf41b54mx7] {
+    animation: Bounce-b-nf41b54mx7;
+    animation-duration: 150ms;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes Bounce-b-nf41b54mx7 {
+    0%,100% {
+    }
+
+    50% {
+        transform: translateY(-9px);
+    }
+}
 /* /Pages/Index.razor.rz.scp.css */
+.page[b-yq8l30i2wm] {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+}
+
+*[b-yq8l30i2wm] {
+    color: var(--color);
+    background-color: var(--background-color);
+}
 
 .game[b-yq8l30i2wm] {
     max-width: 500px;
@@ -145,17 +193,3 @@
     grid-gap: 5px;
 }
 /* /Shared/MainLayout.razor.rz.scp.css */
-.page[b-nzwjbrioau] {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    display: flex;
-    justify-content: center;
-}
-
-*[b-nzwjbrioau] {
-    color: var(--color);
-    background-color: var(--background-color);
-}
